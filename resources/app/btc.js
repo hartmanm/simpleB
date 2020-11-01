@@ -25,19 +25,34 @@
 
         var req = new XMLHttpRequest();
 
-        req.open("GET", "https://api.bitcoinaverage.com/ticker/global/USD/last", false);
+    req.open("GET", "https://api.coincap.io/v2/assets/bitcoin", false);
 
-        req.addEventListener( "load",function()
+    req.addEventListener( "load",function()
+    {
+      if( req.status >= 200 && req.status < 403 )
+      {
+
+        var response = JSON.parse( req.responseText );
+
+        var z = response.data.priceUsd;
+
+        var n = JSON.stringify( z );
+
+        n = n.slice(1, 10);
+
+		if(n.slice(1,2) != ".")
+		{
+			var n = JSON.stringify( z );
+			n = n.slice(1, 12);
+		}
+
+        document.getElementById( "etc" ).innerHTML = n;
+      }
+        
+        else
         {
-            if( req.status >= 200 && req.status < 403 )
-            {
-                document.getElementById( "btc" ).innerHTML = req.responseText;
-            }
-
-            else
-            {
-                console.log( "Error: " + req.statusText );
-            }
+            console.log( "Error: " + req.statusText );
+        }
         });
 
         req.send( null );
