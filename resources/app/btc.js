@@ -38,15 +38,15 @@
 
         var n = JSON.stringify( z );
 
-        n = n.slice(1, 10);
+        n = n.slice(1, 8);
 
 		if(n.slice(1,2) != ".")
 		{
 			var n = JSON.stringify( z );
-			n = n.slice(1, 12);
+			n = n.slice(1, 9);
 		}
 
-        document.getElementById( "etc" ).innerHTML = n;
+        document.getElementById( "btc" ).innerHTML = n;
       }
         
         else
