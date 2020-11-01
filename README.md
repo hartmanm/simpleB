@@ -1,12 +1,12 @@
-##simpleB
+# simpleB
 
 simpleB the inconspicuous BTC/USD ticker.  
 
 Provides the exchange rate without distracting you.
 
-![inthewildsoftheOS](https://github.com/hartmanm/simpleB/blob/master/simpleBv2.jpg)
+![inthewildsoftheOS](https://github.com/hartmanm/simpleB/blob/main/simpleBv2.jpg)
 
-##simpleB was developed using:
+## simpleB was developed using:
 
      Electron
 
@@ -14,17 +14,17 @@ Provides the exchange rate without distracting you.
 
      HTML5
 
-##Platforms
+## Platforms
 
      This version is for Windows
 
-##How To Use
+## How To Use
 
      Clone or Download the repository
 
           run simpleB
 
-##Settings
+## Settings
 
      to move:  hold left click and drag
 
