@@ -4,7 +4,7 @@ simpleB the inconspicuous BTC/USD ticker.
 
 Provides the exchange rate without distracting you.
 
-![inthewildsoftheOS](https://github.com/hartmanm/simpleB/blob/main/simpleBv2.jpg)
+![inthewildsoftheOS](https://github.com/hartmanm/simpleB/blob/main/simpleBv2.png)
 
 ## simpleB was developed using:
 
