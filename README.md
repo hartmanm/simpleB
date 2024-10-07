@@ -16,13 +16,7 @@ Provides the exchange rate without distracting you.
 
 ## Platforms
 
-     This version is for Windows
-
 ## How To Use
-
-     Clone or Download the repository
-
-          run simpleB
 
 ## Settings
 
